@@ -1,0 +1,14 @@
+{
+  "project": "Assignment 2 - PixTag",
+  "created": "2025-09-16 16:24:21",
+  "region": "us-east-1",
+  "s3_buckets": {
+    "full_images": "assignment2-images-1812",
+    "thumbnails": "assignment2-thumbnails-1812"
+  },
+  "dynamodb_tables": [
+    "assignment2-images",
+    "assignment2-tag-index"
+  ],
+  "lambda_role_arn": "arn:aws:iam::617618116807:role/assignment2-lambda-role"
+}
